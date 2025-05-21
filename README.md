@@ -29,7 +29,13 @@ it on `Sepolia Testnet` and using delegatecall and fallback to upgrade from `V1`
 
 #### Links
 [sepolia etherscan (verified)](https://sepolia.etherscan.io/address/0x0C72bf6769F4B95AC5073895cf3eb49F60C92A50)
-```text proxy functions
+```text 
+v1 functions
+- setVal(uint8)
+- getVal()
+
+v2 functions
+- inc()
 - setVal(uint8)
 - getVal()
 ```
