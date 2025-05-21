@@ -6,8 +6,16 @@ showcasing the brief concept of `Proxy Smart Contract` with `@Upgradeable` by im
 it on `Sepolia Testnet` and using delegatecall and fallback to upgrade from `V1` to `V2`.
 
 #### Tech Stack
-- Hardhat
+- Hardhat (with Viem)
 - Solidity
+- Node.js
+
+#### Services
+- Infura
+- Etherscan 
+
+#### Infrastructure
+- Sepolia Testnet 
 
 #### Library used
 [package.json](./package.json)
@@ -18,3 +26,10 @@ it on `Sepolia Testnet` and using delegatecall and fallback to upgrade from `V1`
 - hardhat
 - @openzeppelin/contracts
 - @openzeppelin/contracts-upgradeable
+
+#### Links
+[sepolia etherscan (verified)](https://sepolia.etherscan.io/address/0x0C72bf6769F4B95AC5073895cf3eb49F60C92A50)
+```text proxy functions
+- setVal(uint8)
+- getVal()
+```
